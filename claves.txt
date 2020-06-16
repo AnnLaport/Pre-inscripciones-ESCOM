@@ -1,0 +1,10 @@
+claves: 
+
+ID Administrador=2020150100
+contraseña=julio
+
+
+alumno registrado:
+
+BOLETA=2016630370
+contraseña: Anne23julio1

@@ -1,0 +1,32 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  
+
+  @media only screen and (min-width: 1000px) {
+    table ,tr td{}
+    tbody {
+        display:block;
+        height:200px;
+        overflow:auto;
+    }
+    thead, tbody tr {
+        display:table;
+        width:100%;
+        table-layout:fixed;
+    }
+    thead {
+        width: calc( 100% - 1em );
+    }
+    table {
+        width:800px;
+    }
+  }
+  

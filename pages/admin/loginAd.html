@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Pre inscripciones ESCOM</title>
+<meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no'/>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+<link href="../../js/plugins/validetta/validetta.min.css" rel="stylesheet">
+<link href="../../js/plugins/confirm/jquery-confirm.min.css" rel="stylesheet">
+<link href="../../css/general.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../../js/plugins/validetta/validetta.min.js"></script>
+<script src="../../js/plugins/validetta/validettaLang-es-ES.js"></script>
+<script src="../../js/plugins/confirm/jquery-confirm.min.js"></script>
+<script src="../../js/admin.js"></script>
+</head>
+<body>
+
+    
+  <nav class="blue">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Preinscripciones ESCOM</a>
+    </div>
+  </nav>
+        
+    
+    <main class="valign-wrapper">
+        <div class="container">
+            <form id="formSesionAd" autocomplete="on">
+            <div class="row">
+                <h5 class="center-align">Inicio de Sesi&oacute;n para administradores</h5>
+                <div class="col s12 m6 offset-m3 input-field">
+                    <i class="fas fa-user prefix indigo-text text-darken-4"></i>
+                    <label for="ID">ID</label>
+                    <input type="text" id="idadmin" name="idadmin" maxlength="10" data-validetta="required,minLength[8],maxLength[10]">
+                </div>
+                <div class="col s12 m6 offset-m3 input-field">
+                    <i class="fas fa-key prefix indigo-text text-darken-4"></i>
+                    <label for="boleta">Password</label>
+                    <input type="password" id="contrasena" name="contrasena" maxlength="25" data-validetta="required,minLength[3],maxLength[25]">
+                </div>
+               
+                <div class="col s12 m6 offset-m3 input-field">
+                    <input type="submit" class="btn orange" value="Entrar" style="width: 100%;">
+                </div>
+            </div>
+            </form>
+        </div>
+    </main>
+   
+</body>
+</html>
